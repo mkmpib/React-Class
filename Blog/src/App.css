@@ -1,0 +1,289 @@
+ /* navbaar */
+  .navbar-brand img{
+ height: 50px;
+ width: 150px;
+  }
+  .navbar-nav{
+ 
+    gap: 40px;
+  }
+  
+  /* home */
+
+.homeb{
+    background-color: rgba(230, 216, 230, 0.625);
+}
+.title{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 600;
+    margin: 20px;
+    color: rgb(76, 131, 232);
+}
+.column{
+    display: flex;
+    /* background-color: #EAEAEA; */
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.716);
+    padding: 10px;
+    margin: 10px;
+}
+.col1{
+    width: 500px;
+    
+}
+.col2{
+    width: 900px;
+    padding: 20px;
+}
+.col2 h2{
+    color: red;
+    font-weight: 700;
+}
+.col2 button{
+margin-left: 50%;
+background-color: #676767;
+color: #eaeaea;
+border-radius: 10px;
+border: none;
+padding: 10px;
+}
+.col1 img{
+    width: 500px;
+}
+
+/* services */
+.head{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 680;
+    margin: 40px;
+    color: rgba(255, 0, 0, 0.645);
+}
+.col4{
+    padding: 30px;
+    cursor: pointer;
+    
+}
+
+/* company */
+.upper{
+    position: relative;
+    height: 620px;
+    width: 1200px;
+}
+.overview-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overview-content p {
+    color: white !important;
+    text-align: center;
+    font-family: var(--font-transducer);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    width: 50%;
+}
+/* about */
+.header1{
+    background-image: url("https://mcdonoughpartners.com/wp-content/uploads/2013/09/HERO-Garden-Factory_18-1680x945.jpg");
+    z-index: -1;
+     /* opacity: 0.5; */
+     /* filter: blur(8px); */
+    h2{
+        color: rgb(208, 26, 26);
+        padding: 20px;
+    }
+   
+}
+.pura{
+    margin: 30px;
+    position: relative;
+}
+.col5 h1{
+    color: red;
+    font-size: 300px;
+    font-weight: 700;
+    padding: 30px;
+}
+.col6 h1{
+    font-size: 70px;
+    padding: 20px;
+    text-align: left;
+
+}
+.col6 p{
+    font-size: 20px;
+    color: #030303;
+    padding: 20px;
+    text-align: left;
+}
+.dabba2{
+    background-color: #030303;
+    width: 1300px;
+ border-radius: 20px;
+ margin: 30px;
+ margin-left: 70px;
+}
+.col7 span{
+    color: red;
+}
+.col7{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+.col7 h1{
+    font-size: 40px;
+}
+.dabba3{
+    background-color: #dbd6d6;
+    width: 1400px;
+ border-radius: 10px;
+ color: #030303;
+ margin: 40px;
+ height: 350px;
+}
+.pura2{
+    
+    border-radius: 20px;
+}
+.pura2 h2{
+    color: red;
+    padding: 10px;
+    z-index: 2;
+}
+.col8{
+    padding: 40px;
+}
+.footer{
+    background-color: black;
+    color: #EAEAEA;
+    padding: 20px;
+}
+.pura3 h2  {
+    text-align: left;
+    margin: 10px;
+}
+.col9 ul li{
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+}
+.col9 h4{
+     text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+ @media screen and (max-width:1000px){
+    .pura .col5 h1{
+        font-size: 150px;
+    }
+    .pura .col6 h1{
+        font-size: 65px;
+        font-weight: 400;
+    }
+    .pura .col6 p{
+        color: rgb(237, 79, 139);
+        
+    }
+    .dabba2{
+        width: 660px;
+    }
+    .dabba3{
+        height: 420px;
+        width: 700px;
+        margin: 10px;
+       
+    }
+ 
+ }
+ /* about */
+.vision{
+    display: flex;
+    margin: 20px;
+}
+.vision img{
+    width: 100%;
+    height: 400px;
+}
+.no{
+    font-size: xxx-large;
+    text-align: center;
+    margin: auto;
+}
+.para{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 900px) {
+  .vision img{
+    width: 50%;
+  }
+  
+  }
+  @media screen and (max-width:1200px) {
+    .bike1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  }
+/* splash */
+/* Apply styles to the video background */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; /* Ensures it appears above other components */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #000; /* Fallback color for contrast */
+}
+
+/* Video styling to make it cover the screen */
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Optional overlay with semi-transparent background */
+.video-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+  z-index: 2;
+}
+
+/* Styling for the centered splash text or logo (if needed) */
+.sl {
+  position: relative;
+  z-index: 3;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,218 @@
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex-wrap: wrap; /* Enables wrapping for responsiveness */
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 150px; /* Ensures proper wrapping on smaller screens */
+  margin: 10px;
+}
+
+.stat-item h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+  color: #aaa;
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .stats-section {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .stat-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+}
+/* g *
+/
+
+
+/* j */
+
+
+/* Section Header */
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+h1 span {
+  color: #ff0000;
+}
+
+/* Grid Container */
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: justify;
+}
+
+/* Stats Section */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.stat-item h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+  color: #aaa;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer h4 {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer hr {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+
+media fnjdgi
+@media only screen and (max-width: 420px) {
+  /* Adjust margins for smaller screens */
+  .acc {
+    margin: 8px;
+  }
+
+  /* Responsive heading */
+  .h1 {
+    font-size: 24px; /* Smaller font size */
+    margin: 20px; /* Reduced margin */
+  }
+
+  .h1::before,
+  .h1::after {
+    width: 20%; /* Shorter lines */
+    height: 2px; /* Slightly thinner lines */
+  }
+
+  h2 {
+    font-size: 18px; /* Smaller subtitle font size */
+    font-weight: 300; /* Lighter weight */
+  }
+
+  span {
+    font-size: 26px; /* Adjust font size for span */
+  }
+
+  /* Image container adjustments */
+  #img {
+    margin: 15px; /* Less margin for smaller screens */
+  }
+
+  #img img {
+    width: 300px; /* Adjusted image width */
+    height: 220px; /* Adjusted image height */
+    margin: 15px auto; /* Center the image and reduce margin */
+    border-radius: 8%; /* Rounded edges */
+  }
+
+  #img h4 {
+    font-size: 16px; /* Adjust font size for headings */
+    text-align: center;
+  }
+
+  .accImg {
+    display: block; /* Stack images vertically */
+    text-align: center;
+  }
+
+  /* Stats section */
+  .stats-section {
+    flex-direction: column; /* Stack stats vertically */
+    align-items: center;
+    height: auto; /* Let content define height */
+    padding: 15px;
+    margin: 15px 10px; /* Less margin */
+  }
+
+  .stat-item {
+    margin: 15px 0; /* Reduced margin between items */
+    text-align: center;
+  }
+
+  .stat-item h2 {
+    font-size: 36px; /* Adjusted font size for numbers */
+  }
+
+  .stat-item p {
+    font-size: 14px; /* Adjusted font size for text */
+  }
+}

@@ -1,0 +1,174 @@
+/* Accessories */
+.acc {
+  margin: 10px;
+}
+
+.h1 {
+  font-size: 30px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #ff0000; /* Bright red color for the text */
+  text-align: center;
+  position: relative;
+  margin: 30px; /* Space around the heading */
+  padding: 0 20px;
+}
+
+.h1::before,
+.h1::after {
+  content: ""; /* Empty content for the lines */
+  position: absolute;
+  top: 50%; /* Align the line vertically with the text */
+  width: 25%; /* Length of the lines on each side */
+  height: 3px; /* Thickness of the line */
+  background-color: #c1bcbc; /* Light gray color for the line */
+}
+
+.h1::before {
+  left: 0; /* Line on the left */
+}
+
+.h1::after {
+  right: 0; /* Line on the right */
+}
+h2 {
+  font-size: 20px;
+  font-weight: 350;
+  text-align: center;
+}
+span {
+  color: red;
+  font-size: 30px;
+}
+
+#img {
+  margin: 20px;
+}
+#img img {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  margin: 30px;
+}
+
+#img h4 {
+  text-align: center;
+}
+.accImg {
+  display: flex;
+}
+
+.stats-section {
+  display: flex;
+  background-color: #191818;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  height: 180px;
+  margin: 20px;
+}
+.stat-item {
+  margin: 30px;
+}
+.stat-item h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: white;
+}
+.stat-item p {
+  font-weight: 700;
+  color: #c1bcbc;
+}
+
+@media (max-width: 768px) {
+   .acc {
+    margin: 8px;
+  }
+
+  /* Responsive heading */
+  .h1 {
+    font-size: 24px; /* Smaller font size */
+    margin: 20px; /* Reduced margin */
+  }
+
+  .h1::before,
+  .h1::after {
+    width: 20%; /* Shorter lines */
+    height: 2px; /* Slightly thinner lines */
+  }
+
+  h2 {
+    font-size: 18px; /* Smaller subtitle font size */
+    font-weight: 300; /* Lighter weight */
+  }
+
+  span {
+    font-size: 26px; /* Adjust font size for span */
+  }
+
+  /* Image container adjustments */
+  #img {
+    margin: 15px; /* Less margin for smaller screens */
+  }
+
+  #img img {
+    width: 300px; /* Adjusted image width */
+    height: 220px; /* Adjusted image height */
+    margin: 15px auto; /* Center the image and reduce margin */
+    border-radius: 8%; /* Rounded edges */
+  }
+
+  #img h4 {
+    font-size: 16px; /* Adjust font size for headings */
+    text-align: center;
+  }
+
+  .accImg {
+    display: block; /* Stack images vertically */
+    text-align: center;
+  }
+
+  /* Stats section */
+  .stats-section {
+    flex-direction: column; /* Stack stats vertically */
+    align-items: center;
+    height: auto; /* Let content define height */
+    padding: 15px;
+    margin: 15px 10px; /* Less margin */
+  }
+
+  .stat-item {
+    margin: 15px 0; /* Reduced margin between items */
+    text-align: center;
+  }
+
+  .stat-item h2 {
+    font-size: 36px; /* Adjusted font size for numbers */
+  }
+
+  .stat-item p {
+    font-size: 14px; /* Adjusted font size for text */
+  }
+  .footer {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .pura3 .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col9 {
+    flex: 1 1 45%; /* Each column takes up about half the width */
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    font-size: 16px;
+  }
+
+  .footer ul li {
+    font-size: 13px;
+  }
+}
+
